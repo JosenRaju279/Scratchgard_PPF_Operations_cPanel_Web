@@ -1,0 +1,58 @@
+<?php
+
+return [
+    'super_admin' => [
+        'slug' => 'super_admin',
+        'name' => 'Super Admin',
+        'title' => 'Super Admin Portal',
+        'description' => 'Full Scratchgard ERP control, system configuration, plugins, permissions and audit.',
+        'route' => 'login.super-admin',
+        'roles' => ['super_admin'],
+        'accent' => 'admin',
+    ],
+    'work_delegator' => [
+        'slug' => 'work_delegator',
+        'name' => 'Work Delegator',
+        'title' => 'Work Delegator Portal',
+        'description' => 'Receive work, create orders, route jobs and coordinate operational delegation.',
+        'route' => 'login.delegator',
+        'roles' => ['work_delegator'],
+        'accent' => 'delegator',
+    ],
+    'zonal_manager' => [
+        'slug' => 'zonal_manager',
+        'name' => 'Zonal Manager',
+        'title' => 'Zonal Manager Portal',
+        'description' => 'Manage zone workload, assign applicators, monitor quality, rework and exceptions.',
+        'route' => 'login.zonal-manager',
+        'roles' => ['zonal_manager'],
+        'accent' => 'zonal',
+    ],
+    'applicator' => [
+        'slug' => 'applicator',
+        'name' => 'Applicator',
+        'title' => 'Applicator Portal',
+        'description' => 'Mobile-first field workflow for assigned jobs, GPS, evidence and rework.',
+        'route' => 'login.applicator',
+        'roles' => ['applicator'],
+        'accent' => 'applicator',
+    ],
+    'external_verifier' => [
+        'slug' => 'external_verifier',
+        'name' => 'Showroom Verifier',
+        'title' => 'Showroom / Verifier Portal',
+        'description' => 'Review assigned showroom work and confirm decisions with registered email OTP.',
+        'route' => 'login.showroom',
+        'roles' => ['external_verifier'],
+        'accent' => 'verifier',
+    ],
+    'finance' => [
+        'slug' => 'finance',
+        'name' => 'Finance',
+        'title' => 'Finance Portal',
+        'description' => 'Review payment status, finance records, exports and approved-work settlement data.',
+        'route' => 'login.finance',
+        'roles' => ['finance'],
+        'accent' => 'finance',
+    ],
+];

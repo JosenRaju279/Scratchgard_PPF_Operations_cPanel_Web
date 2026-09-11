@@ -1,0 +1,72 @@
+SCRATCHGARD v2.5 QUICK cPANEL INSTALL
+==================================
+
+1) cPanel -> MultiPHP Manager
+   Use PHP 8.3+.
+
+2) cPanel -> MySQL Database Wizard
+   Create DB + DB user, assign ALL PRIVILEGES.
+   Keep the FULL cPanel-prefixed DB name / username.
+   phpMyAdmin is optional for viewing/managing the DB; Laravel connects with DB credentials, not a phpMyAdmin URL.
+
+3) Extract to e.g. /home/CPANELUSER/scratchgard
+
+4) Point app.yourdomain.com document root to:
+   /home/CPANELUSER/scratchgard/public
+
+5) Terminal:
+   cd /home/CPANELUSER/scratchgard
+   composer install --no-dev --optimize-autoloader
+
+6) Ensure storage/ and bootstrap/cache/ are writable.
+
+7) Open https://app.yourdomain.com/preflight.php
+
+8) Open https://app.yourdomain.com/install
+   Choose MySQL/MariaDB for normal cPanel or PostgreSQL if your host provides it.
+   Select Local or S3 evidence storage.
+   Create first Super Admin.
+
+9) Add scheduler cron:
+   * * * * * cd /home/CPANELUSER/scratchgard && /usr/local/bin/php artisan schedule:run >> /dev/null 2>&1
+
+10) Shared hosting queue fallback:
+   * * * * * cd /home/CPANELUSER/scratchgard && /usr/local/bin/php artisan queue:work --stop-when-empty --tries=3 >> /dev/null 2>&1
+
+11) Login, configure branding/SMTP/OTP, import official India postal CSV, create zones and coverage, then create users/showrooms/pricing/templates.
+
+12) Run a full pilot Work Order before production.
+
+DETAILS: docs/CPANEL_V2_SETUP.md
+
+
+ERP HOME & LOGIN URLS (v2.7)
+----------------------------
+- ERP Home: /
+- Universal Login: /login
+- Super Admin: /super-admin/login
+- Work Delegator: /delegator/login
+- Zonal Manager: /zonal-manager/login
+- Applicator: /applicator/login
+- Showroom / External Verifier: /showroom/login
+- Finance: /finance/login
+- Applicator Registration: /applicator/register
+
+Role-specific login URLs validate the account role. A user cannot use another role's portal even with otherwise valid credentials.
+
+AFTER FIRST LOGIN (v2.7)
+------------------------
+1. Open System Settings and configure SMTP, then send a test email.
+2. Keep Event Emails enabled so registration/work/status/ticket notifications reach relevant users.
+3. Create third-party showroom managers as External Verifier users with a unique email and assigned showroom.
+4. External Verifier review decisions use email OTP by default.
+5. Each Work Order has a public read-only tracker URL. You can disable or regenerate it from the Work Order screen.
+
+PLUGIN FRAMEWORK 2.5
+--------------------
+- Plugin management is available only to Super Admin.
+- cPanel PHP Zip extension is required for plugin ZIP upload.
+- New plugins install disabled; review them before enabling.
+- Plugin migrations use the same database and Laravel migration system.
+- Keep the Laravel scheduler cron active for plugin scheduled tasks.
+- See docs/PLUGIN_DEVELOPER_GUIDE.md and docs/Scratchgard_Example_Extension_v1.0.0.zip.

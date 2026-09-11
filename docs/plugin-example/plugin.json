@@ -1,0 +1,13 @@
+{
+  "name": "Scratchgard Example Extension",
+  "slug": "scratchgard-example",
+  "version": "1.0.0",
+  "description": "Demonstrates hooks, filters, permissions, settings, routes, navigation, dashboard widgets and scheduled work.",
+  "author": "Scratchgard",
+  "requires": {"scratchgard": ">=2.6.0", "php": ">=8.3"},
+  "permissions": [{"key":"report.view","name":"View example plugin report"}],
+  "settings": [
+    {"key":"label","label":"Dashboard label","type":"text","default":"Example extension is active"},
+    {"key":"secret","label":"Example secret","type":"password","secret":true}
+  ]
+}

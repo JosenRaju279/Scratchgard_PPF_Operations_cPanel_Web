@@ -1,0 +1,727 @@
+{
+  "package": "Scratchgard PPF Operations cPanel Web/PWA",
+  "version": "2.8.0-cpanel-web-pwa",
+  "file_count": 180,
+  "files": {
+    ".env.example": {
+      "sha256": "e95fcb499389d4f539fcc95411dc7691c9ff9707ad40fd1b1c5f63a58cbc45a7",
+      "bytes": 761
+    },
+    ".gitignore": {
+      "sha256": "129ff8b24d4ec9a2dbe76491d3a5bde18e515fcdb24fa1a6a255150313646ee2",
+      "bytes": 280
+    },
+    "README.md": {
+      "sha256": "ebabffe1264e1e75b59ba77b89a6d621714e94dbdbe944886e1f5865e5cac44a",
+      "bytes": 6387
+    },
+    "VERSION": {
+      "sha256": "dceb827995520dae388b7283c5bc7847ef58a16e8013318c3bb436feeb5dc51e",
+      "bytes": 6
+    },
+    "app/Contracts/ScratchgardPlugin.php": {
+      "sha256": "bd0e8c3398a3399ad826343eb01da25328532cbac9ee7d887eba5e93dc0e3226",
+      "bytes": 512
+    },
+    "app/Http/Controllers/ApiClientController.php": {
+      "sha256": "3aeec7d9112a884d377782d093d71f052e61f9cc8be7f30ef1836c4146cf2ce4",
+      "bytes": 1353
+    },
+    "app/Http/Controllers/ApiController.php": {
+      "sha256": "8b498173fbaf7d22664b03dd59a20823db220004954e8d3cdc785b4aaba1a430",
+      "bytes": 4120
+    },
+    "app/Http/Controllers/ApplicatorRegistrationController.php": {
+      "sha256": "8ca81372c1c5978e2c884367ba35fce60248399009a5d1e7b49024f07847beb3",
+      "bytes": 11072
+    },
+    "app/Http/Controllers/AuditController.php": {
+      "sha256": "136ffb9f0e5f3c5ec7e8c3b389bdb74d9686762d42925b3b8ea7d6de1e3301fd",
+      "bytes": 297
+    },
+    "app/Http/Controllers/AuthController.php": {
+      "sha256": "7a17a47470908d6cdbb18aeed55a0a5a3e0b244082b652155068e0b092e04cf7",
+      "bytes": 3211
+    },
+    "app/Http/Controllers/ComplaintController.php": {
+      "sha256": "05b7e0c413505e3f4477f458eebc6df560c1d9b95c42fc2a8b17b43909e45092",
+      "bytes": 9820
+    },
+    "app/Http/Controllers/ConfigurationController.php": {
+      "sha256": "17f2dc7a4f15b918fe89d2599a1bbbd65f8ef84571d0afa0a1cd5ba987a7ec42",
+      "bytes": 3263
+    },
+    "app/Http/Controllers/Controller.php": {
+      "sha256": "50c69a51484453a057e0349262b108515df469c70404c01816bf8a26c8b16756",
+      "bytes": 67
+    },
+    "app/Http/Controllers/DashboardController.php": {
+      "sha256": "ebae351e587f7167cf253c0f4bac09e11cc12eabe65dd8608a8b8f7c47e9392e",
+      "bytes": 9799
+    },
+    "app/Http/Controllers/EvidenceController.php": {
+      "sha256": "2a206df3d80d8897d8b5054d9d042caa8220b0008cf5c6c3bcefcced5ae174cd",
+      "bytes": 5212
+    },
+    "app/Http/Controllers/HomeController.php": {
+      "sha256": "4e03bc1c0826574fd18b6fde7a189792b6f499933ab5810c657a68f9c4885e5d",
+      "bytes": 344
+    },
+    "app/Http/Controllers/InstallerController.php": {
+      "sha256": "bb0c5585db6a5a61d6961a60281cd124f822b4a69a75ca36c7c4093f250dd276",
+      "bytes": 8898
+    },
+    "app/Http/Controllers/KycController.php": {
+      "sha256": "349430fbacf96e6a5c92536f2122cf7e194ada8438bf94bf2f195bb38ff867a8",
+      "bytes": 2038
+    },
+    "app/Http/Controllers/MasterDataController.php": {
+      "sha256": "18d4383a161f9e440ba3358effb44a2960c6e1a54e41982323fa9355fb410dde",
+      "bytes": 14685
+    },
+    "app/Http/Controllers/MessageController.php": {
+      "sha256": "acb57e13dacf4640d24e7cf32ebac2191e0bc454864b96b341372bfe6715595a",
+      "bytes": 1007
+    },
+    "app/Http/Controllers/PartnerApiController.php": {
+      "sha256": "9fde545e19ff583d04e31267ceaaf617001bd81a39b58ab38d5a295f6f86e2f7",
+      "bytes": 3864
+    },
+    "app/Http/Controllers/PaymentController.php": {
+      "sha256": "8854b4c181ab0dd0fd5d8ae447e72125c773478c224599f4d1829eac17797e24",
+      "bytes": 3662
+    },
+    "app/Http/Controllers/PluginController.php": {
+      "sha256": "36c85a016efeab56692fb88bd3c831920ee4c108680a771e05a126f67acbf7aa",
+      "bytes": 4110
+    },
+    "app/Http/Controllers/ProfileController.php": {
+      "sha256": "af748c37815c6acb2ca2f6b378a5e55208c4569cc93f7bca65e1349f3ba9d54c",
+      "bytes": 6220
+    },
+    "app/Http/Controllers/PublicTrackingController.php": {
+      "sha256": "d4c2f0b9c60dd40fcc954fb71bf18fa781e2bcfa6b7ca7febca161e4dedaca98",
+      "bytes": 799
+    },
+    "app/Http/Controllers/SettingsController.php": {
+      "sha256": "afb40493b197368e29d3e309b0462218fe2131bc00837c83c34071e761bb0a5f",
+      "bytes": 5546
+    },
+    "app/Http/Controllers/TicketController.php": {
+      "sha256": "7b7c7584e738e4d5bc05a27d32f1fa84d696d3fb4c3dd1a9881d0f6fb31e9aa1",
+      "bytes": 5111
+    },
+    "app/Http/Controllers/UserManagementController.php": {
+      "sha256": "4262c8a7be0a9bdb801a4245d08195d6f514466b79069db1b1247bb99b0137eb",
+      "bytes": 13994
+    },
+    "app/Http/Controllers/WorkOrderController.php": {
+      "sha256": "7c39d4dc8651128fa59bbf35c49639c397cea70f0df48c4d8c9fe12ceeaf5ff6",
+      "bytes": 15940
+    },
+    "app/Http/Middleware/ApiTokenMiddleware.php": {
+      "sha256": "baf4707042ea2e34da96446b6bcb4c597df4b4ff264fc3814b7d0b15028bd5de",
+      "bytes": 958
+    },
+    "app/Http/Middleware/EnsureInstalled.php": {
+      "sha256": "b3193c6ab95d575135d4c0e1f57746fc76d737762cbda4dabbf171b740561f50",
+      "bytes": 397
+    },
+    "app/Http/Middleware/EnsureSuperAdmin.php": {
+      "sha256": "c1e3534ea43f48d1fc652045f6298e2b9f94d1a1ecd3ea404ec696ebad9e9176",
+      "bytes": 409
+    },
+    "app/Http/Middleware/PartnerApiMiddleware.php": {
+      "sha256": "3389c8c6fc4892c1c1011a51cbcac6e622f8b0973846fbd44976786774daa17f",
+      "bytes": 1093
+    },
+    "app/Http/Middleware/PermissionMiddleware.php": {
+      "sha256": "2796aaed688904dc1566a830fa58646a8384bcdeabb287619ebbaf96d5101bdd",
+      "bytes": 445
+    },
+    "app/Models/ApiClient.php": {
+      "sha256": "5c712662afcb3352ca6a3c95994d702696528a437909baa81ef9d87002ac5522",
+      "bytes": 581
+    },
+    "app/Models/ApiToken.php": {
+      "sha256": "25c75b133fb7cc47025ad8c912873a0a85863c9bc0e6afd1a34dd82cb8c14b61",
+      "bytes": 391
+    },
+    "app/Models/Assignment.php": {
+      "sha256": "b23b16488bbc3659c301598c08e8f10248fbdb77f38b6d0d2634ca1c80fbfc91",
+      "bytes": 378
+    },
+    "app/Models/Checkin.php": {
+      "sha256": "dcd46887aa4323eef282f2db4077937adfe6581f6f9ba47602e26b5c028c14b2",
+      "bytes": 398
+    },
+    "app/Models/Complaint.php": {
+      "sha256": "7768a796b04e404568dafb9aec35a1589a2fb65db1982d775e65216626feda84",
+      "bytes": 602
+    },
+    "app/Models/EvidenceItem.php": {
+      "sha256": "dd26fe2735c2f9f17163543fd5e4edc05328fc7e740b6e2739981832e59ddfcd",
+      "bytes": 633
+    },
+    "app/Models/EvidenceTemplate.php": {
+      "sha256": "b1f6e32835f3b9f00645187f47675e3da816c24f311831c0cd9196f49e9f81dd",
+      "bytes": 332
+    },
+    "app/Models/EvidenceTemplateSlot.php": {
+      "sha256": "a29302bf814305fc470195f40c96e495596074eb0cdab3d209fd3381c2d7b097",
+      "bytes": 503
+    },
+    "app/Models/IdentityVerification.php": {
+      "sha256": "cf69121efa663eefb87403f98e2a612111bd884170ff8745ca1db31a30ce3b10",
+      "bytes": 436
+    },
+    "app/Models/KycRecord.php": {
+      "sha256": "5aa11329ce555e2bbccb0c029b6d99d5797e5adf11b28542b427d5b6ecbb6739",
+      "bytes": 496
+    },
+    "app/Models/NotificationLog.php": {
+      "sha256": "21f269436ba90cab9de60baec1a6d41ad8c5ee8d678b1e9c7eba4b94e96c7726",
+      "bytes": 470
+    },
+    "app/Models/Payment.php": {
+      "sha256": "5588166f9a7bf181b159f57994a507da28086643ea5baa00d5b671ba47db8f8c",
+      "bytes": 681
+    },
+    "app/Models/Permission.php": {
+      "sha256": "2115e3805d2cf77f0842287db091a01e43e93fb13aef03824a8b6752eb35f97c",
+      "bytes": 148
+    },
+    "app/Models/Pincode.php": {
+      "sha256": "59bc778bde769a5b30491f40292291bd0ee57a8ca9d88af295d49a405a4df227",
+      "bytes": 380
+    },
+    "app/Models/Plugin.php": {
+      "sha256": "b28010a4c69eb6152e8c9f405f222d649c87830c85eabef8c71819b2622d3f05",
+      "bytes": 771
+    },
+    "app/Models/PluginActivityLog.php": {
+      "sha256": "c8eeb1141867640c3d77bb88305ec65a114fb8f328824b8576307838102ca96c",
+      "bytes": 480
+    },
+    "app/Models/PluginSetting.php": {
+      "sha256": "bf099272250328e11888399936837af513b5c44cd26a5a2cb4fa4abafc27e826",
+      "bytes": 1023
+    },
+    "app/Models/PricingRule.php": {
+      "sha256": "3460382e8940f33ffed732dbf64e675ee365f3a0ec54484c3fab477bc78ad614",
+      "bytes": 446
+    },
+    "app/Models/Reason.php": {
+      "sha256": "2b366b304e697edb8317af668e90049b360a31071d3505be1010fd5170e324e8",
+      "bytes": 420
+    },
+    "app/Models/Review.php": {
+      "sha256": "4c272a9fe18de65bee2d36da19477c52a60696114f0d5698084ba02864b7195d",
+      "bytes": 494
+    },
+    "app/Models/Rework.php": {
+      "sha256": "49a91cebbe41b9ea6ffe3af92236ec7d9403a1a7cb757f11af282468bde3d73c",
+      "bytes": 958
+    },
+    "app/Models/Role.php": {
+      "sha256": "74b15085b07bb2f6d48f8a8fa913ac6c47bbc520cdad47b95fd707e3fb1af236",
+      "bytes": 333
+    },
+    "app/Models/Setting.php": {
+      "sha256": "45f72cb6cf506caffa3ace38b2f6b81013dbabc8893eb6d95ebc6e76d5c090ec",
+      "bytes": 597
+    },
+    "app/Models/Showroom.php": {
+      "sha256": "1c043677395e01ec865076c61cb979c206f6e22b96a6683fdca48715b9aa7be4",
+      "bytes": 462
+    },
+    "app/Models/Ticket.php": {
+      "sha256": "36db96076ab354ae04aa658010d02abdc6d0a0942ccfc16093707098684bb5df",
+      "bytes": 937
+    },
+    "app/Models/TicketEvent.php": {
+      "sha256": "49bb1851c534402a651241b116a38c6bd840f8a0140f31feab567168ca2c3312",
+      "bytes": 352
+    },
+    "app/Models/TicketMessage.php": {
+      "sha256": "040ca435794099911994caaa4af541a195b7704fd6b56b57cedeff0c3fe4fd60",
+      "bytes": 453
+    },
+    "app/Models/User.php": {
+      "sha256": "d92c483360675e630d398c2d4c876d5ca4cf38419a1a453615f0eba7beac74e5",
+      "bytes": 2487
+    },
+    "app/Models/Vehicle.php": {
+      "sha256": "5f0ccd0cbfeb0e1651cec6498f08763228c810349a41e90391d11aef939eca88",
+      "bytes": 299
+    },
+    "app/Models/VendorOrganization.php": {
+      "sha256": "a10321e465edab2ea4d280d2cb1c9ca3878206452468804168ab1dab515f2c01",
+      "bytes": 261
+    },
+    "app/Models/WorkEvent.php": {
+      "sha256": "4d20e2db9bd4c9de9e2bb100dab65f2de672aeca6c6431827f34df70af6d217d",
+      "bytes": 526
+    },
+    "app/Models/WorkOrder.php": {
+      "sha256": "fb8ea453d0ae0eca147af6d16ef2e9024235825438eee973c0728c3761bcf86d",
+      "bytes": 1948
+    },
+    "app/Models/Zone.php": {
+      "sha256": "c0b779a4f679977bd58ec045661d125485aaf5a609bfbf3bc35f6d80f6063c34",
+      "bytes": 731
+    },
+    "app/Models/ZoneCoverageRule.php": {
+      "sha256": "4e9125d20eb168a827b90d8a413948ca822b6bcb23b73ff83b9b3f63caa93064",
+      "bytes": 368
+    },
+    "app/Models/ZoneMappingBatch.php": {
+      "sha256": "ec920046ec7c882df83984d7b0898f0d22bb0baac2a50ab199803c0c7d7d95b8",
+      "bytes": 417
+    },
+    "app/Models/ZonePinAssignment.php": {
+      "sha256": "e2a63cb99ff0a4b4e5b28bb1255bbde40c9363fc215f9caa712166f480dec979",
+      "bytes": 325
+    },
+    "app/Models/ZonePinAssignmentSource.php": {
+      "sha256": "093edf7611b609a1c74e0f4d3bfdc8a7518bb22bef87b07fd79004bfdbae829c",
+      "bytes": 413
+    },
+    "app/Plugins/PluginContext.php": {
+      "sha256": "41af153367b522df5e12968e20d88911ec9daa72e40f93344c3c4d0882573742",
+      "bytes": 4430
+    },
+    "app/Plugins/PluginRuntime.php": {
+      "sha256": "d3bac4726d845e54e18bc79fc67b2d2b5a347766d53d5f47556bf5716be08dd9",
+      "bytes": 9072
+    },
+    "app/Providers/AppServiceProvider.php": {
+      "sha256": "d6cbdc472c86c461046d815e5968c5e73baf883dcfc5f386a8bdfe88e958da81",
+      "bytes": 2213
+    },
+    "app/Services/EvidenceStorageService.php": {
+      "sha256": "a5654570c740610287bad96913dbedbb17f229a88839e3a3bc682c961dbcd2bd",
+      "bytes": 2368
+    },
+    "app/Services/IdentityNormalizerService.php": {
+      "sha256": "c2d998f108ab17cb2c326935b6c8a24851e92d9ee413e7f490a8f7a302098ba5",
+      "bytes": 3739
+    },
+    "app/Services/IdentityVerificationService.php": {
+      "sha256": "abf9b7c80513d207810d2d28de03a07e9858dde6f9feea6af0434014ca75e4b2",
+      "bytes": 3555
+    },
+    "app/Services/PluginManager.php": {
+      "sha256": "a7c8cd271f7559f7e67c53cbb23998f170594fce555a59dc73047a345eb23947",
+      "bytes": 21573
+    },
+    "app/Services/SystemNotificationService.php": {
+      "sha256": "574e66d535d2b6fef8464fa0430d22f5b685d56db50a351ef1f1e48b3995968c",
+      "bytes": 5413
+    },
+    "app/Services/TicketService.php": {
+      "sha256": "cd9e386c240591b553a1a5291d2b96cf17a6def37ffaf1b4028631d1b7a1c4ba",
+      "bytes": 2497
+    },
+    "app/Services/UserZoneService.php": {
+      "sha256": "558368d0cd1eb946d0dfbb223ce307d24e3ad3e3dd540014d9b517acb88d5b2f",
+      "bytes": 2290
+    },
+    "app/Services/WorkOrderService.php": {
+      "sha256": "ed73e7a26e0fe3ed9fc5b565350597726afb42552680b0db3e4b0de96aa090d2",
+      "bytes": 8396
+    },
+    "app/Services/ZoneResolverService.php": {
+      "sha256": "60c9946ab10a20a3e5d87a7cc8beb0a2ddc7006dc2102cb59f12d9b7e4a1a5f4",
+      "bytes": 5053
+    },
+    "artisan": {
+      "sha256": "86d5cf930eb6b3a0015db19defefe868a0c3db61c151edee23576bf89bd5d3fb",
+      "bytes": 339
+    },
+    "bootstrap/app.php": {
+      "sha256": "b06fabee9bc0485632f1c9a1777400e39b97594ac30af9b8cedf2b2de289bac4",
+      "bytes": 1090
+    },
+    "bootstrap/cache/.gitignore": {
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d",
+      "bytes": 14
+    },
+    "bootstrap/providers.php": {
+      "sha256": "59f4716d065fd16bf8757bb5ddf5c1dfb7755f943108669207508f80cb961b36",
+      "bytes": 63
+    },
+    "composer.json": {
+      "sha256": "bd055e78b7a3e6c89c03fd49981266f6de92e3dd1514542a23b7d7e6fae0b069",
+      "bytes": 1449
+    },
+    "config/app.php": {
+      "sha256": "1148fb8bcce38ad758f6f40ade7f2685775026dc223587acd375e3ed088c4256",
+      "bytes": 597
+    },
+    "config/auth.php": {
+      "sha256": "c25238e306f2b1bb2f6973d15c3ba83e8aa08dbca88ac43c1b45657a5091b34d",
+      "bytes": 531
+    },
+    "config/cache.php": {
+      "sha256": "d35dfe137ce42e2c7e68b32d16a6839312899fb5aed7433d3d5375f1f282d97f",
+      "bytes": 653
+    },
+    "config/database.php": {
+      "sha256": "7135dadd002fb22389a991a974f30eacfe73d0246d4bba769b92838aefd9911a",
+      "bytes": 2384
+    },
+    "config/filesystems.php": {
+      "sha256": "71d2aeea53d03c25187794a24d189209dfb418dc8b8927bea2f229c03184397e",
+      "bytes": 1142
+    },
+    "config/logging.php": {
+      "sha256": "68d8155ae32206d9aefe79f21207a2b756a6bea4f491fc4eab70b5c8a579b977",
+      "bytes": 1120
+    },
+    "config/mail.php": {
+      "sha256": "c7f16a85f20a4ca178e5549204f1b8ef9726d4b8082375cf54df9500cef2f967",
+      "bytes": 816
+    },
+    "config/plugin_ui.php": {
+      "sha256": "458d86bb29a58d39855a77ba475d9da2abd5ac7f452cab3315327f42c5529035",
+      "bytes": 3252
+    },
+    "config/portals.php": {
+      "sha256": "ef4bf7369512ec1ebf389a4fb3b2c9ca4223efd457c1ff3f44b12290896de0b5",
+      "bytes": 2157
+    },
+    "config/queue.php": {
+      "sha256": "c5e3775a7de8bfb5a9c40da66ef1155869196eaefc4a3537212f608bd7a4bf0e",
+      "bytes": 657
+    },
+    "config/services.php": {
+      "sha256": "010f5766f57de793fcd4ba7bac708fba15c443730bf9b6e8e92084bd021ea2a0",
+      "bytes": 17
+    },
+    "config/session.php": {
+      "sha256": "a8f6fdc1ae380a7479cc4694021c77daa18a1732688a0cc361831d3cb509f389",
+      "bytes": 677
+    },
+    "database/migrations/2026_09_11_000001_create_scratchgard_schema.php": {
+      "sha256": "1f1462c76ad3dcf0f20ef659dc5e61ca6171fee21214ef346e2f15488c36bdab",
+      "bytes": 17463
+    },
+    "database/migrations/2026_09_11_000002_add_registration_zones_tickets_plugins_and_payment_controls.php": {
+      "sha256": "9a37d9f252d135e77cf23f2e0818538f9892e0f26cd67ef365773b36c710e076",
+      "bytes": 10082
+    },
+    "database/migrations/2026_09_11_000003_add_user_zone_events.php": {
+      "sha256": "2d4c09f80a01caf20c44e070590b22a175582143192f2e7ff80b2a73eec764d5",
+      "bytes": 999
+    },
+    "database/migrations/2026_09_11_000004_identity_username_and_pin_zone_mapping.php": {
+      "sha256": "a0c7f8c8213d5f288b7711765bf420258e845b11b81fbe2b3015f98f14f083dd",
+      "bytes": 5330
+    },
+    "database/migrations/2026_09_11_000005_external_verifier_email_notifications_and_public_tracking.php": {
+      "sha256": "62309ee0f8c76a29c2449a2e5dbec23dabe9d1f9ee2cefaa59efc094aeff7c96",
+      "bytes": 3328
+    },
+    "database/migrations/2026_09_11_000006_advanced_plugin_framework.php": {
+      "sha256": "db09b92c8ab5e670e058dfa6601e0351da0c90d4775b5f74015be0099d8896e8",
+      "bytes": 2275
+    },
+    "database/seeders/DatabaseSeeder.php": {
+      "sha256": "47e539f87134f6f9dd62f7efd9e27fcb71569b57758b44345ac8d52a0c755c73",
+      "bytes": 9948
+    },
+    "docs/API_GUIDE.md": {
+      "sha256": "d3e7200ccc27bfc956fc9b911b9ddac00f3f9b55d6b0ba007870084d0f238c02",
+      "bytes": 4665
+    },
+    "docs/AWS_S3_SETUP.md": {
+      "sha256": "ee2081725612feff601e05a1de907320c4ef85a4e382d56ce3ffb567baa60aef",
+      "bytes": 2271
+    },
+    "docs/CPANEL_INSTALL.md": {
+      "sha256": "23fa1c7251f096d4ee1923675b63cbfed55925c69aeb5e47d0701b3d02ba82c0",
+      "bytes": 5158
+    },
+    "docs/CPANEL_PUBLIC_HTML_FALLBACK.md": {
+      "sha256": "95147df7c6e3b6164984decf5309affc984f42a555707cd4ccaffb3115d57303",
+      "bytes": 1060
+    },
+    "docs/CPANEL_V2_SETUP.md": {
+      "sha256": "65cfd39fe64fd01ebfde59c7e11e782775029eef01c1f7150b9fa952088ddad4",
+      "bytes": 4633
+    },
+    "docs/DB_AND_PHPMYADMIN.md": {
+      "sha256": "ad66d6b78b3bc517940f26030bdfea8b3ff01dcd173cb833e0ffd3f678483898",
+      "bytes": 1063
+    },
+    "docs/EMAIL_VERIFIER_AND_PUBLIC_TRACKING.md": {
+      "sha256": "e7b16c7b39fbe8a6b1fb4327695832443a32181111674b877952ad51dbea818d",
+      "bytes": 2897
+    },
+    "docs/FEATURE_SCOPE.md": {
+      "sha256": "5fa021878b250abf52a4e1b6e831ca5d0703a76cfcdad1fdc1f16f6449d542c8",
+      "bytes": 5791
+    },
+    "docs/LOCATION_DATA_SETUP.md": {
+      "sha256": "424d0dc15483c069c8298d26500f5c30684b39699c426903ce942276a5f4e820",
+      "bytes": 3578
+    },
+    "docs/LOGIN_URLS.md": {
+      "sha256": "a9850cc1d7c3db2cb97603af7476f3c21700a94122824e42b024d4d884a80434",
+      "bytes": 1514
+    },
+    "docs/PAYMENT_REWORK_LOGIC.md": {
+      "sha256": "a2683be4950c4be799646f8b507ac67daaf0519257761f136e520d3bc7b500b7",
+      "bytes": 2601
+    },
+    "docs/PLUGIN_DEVELOPER_GUIDE.md": {
+      "sha256": "7459ea1327e398d9c9f729193ec7bedb917c6d0051dd5505b8ac4678c53e61b7",
+      "bytes": 12332
+    },
+    "docs/QUICK_INSTALL.txt": {
+      "sha256": "7dd0660e05369ca38f4a60634c585b610073b26f3467c2056322008d829fe60f",
+      "bytes": 2891
+    },
+    "docs/REGISTRATION_AND_ZONE_POLICY.md": {
+      "sha256": "53ccf06513d5b4f9fdefde2023b59176e87a7b049010d98d135d5c724f9c4782",
+      "bytes": 4836
+    },
+    "docs/RELEASE_NOTES.md": {
+      "sha256": "c5c283ff286d5cf982a0827ba27c737de4447b94be7536559e73f3140667e246",
+      "bytes": 5300
+    },
+    "docs/Scratchgard_Example_Extension_v1.0.0.zip": {
+      "sha256": "0b8c4e8e7a53c375a4d398c0b86a999d9effa26230ac4dbecf1f38aed6692be3",
+      "bytes": 2855
+    },
+    "docs/Scratchgard_Requirements_cPanel_Web_PWA.docx": {
+      "sha256": "9f61cb9cac6bf3beb36b697868adf069decac2e91fe2e3d0855d02d74b51db7e",
+      "bytes": 57888
+    },
+    "docs/UI_REFERENCE_SUPER_ADMIN.png": {
+      "sha256": "a8c2e6d69be9e9cee5a955347121b802291d0bf49eb6fdc3b1f3094bf6e417a3",
+      "bytes": 1427511
+    },
+    "docs/UPGRADE_FROM_V1.md": {
+      "sha256": "e5c785b26ebc3799bcf54be2f16745c8b4a11088844973181d14cf79c7b2256f",
+      "bytes": 2543
+    },
+    "docs/examples/postal-sample.csv": {
+      "sha256": "597a3ce64395db07e1d5a39364a62ce8a90692d06109f05eea51e2d38fcee1cc",
+      "bytes": 290
+    },
+    "docs/plugin-example/README.md": {
+      "sha256": "07b1112c3d8e5d1fff2811dfc28fb343bac6b28892ae55af8c67a15cd24de4c8",
+      "bytes": 173
+    },
+    "docs/plugin-example/plugin.json": {
+      "sha256": "bf71920a614984e5916f390c0906d090823714df18e385699e04ed83e96c919c",
+      "bytes": 594
+    },
+    "docs/plugin-example/plugin.php": {
+      "sha256": "712d82a026e457891e791e7213f9b2bdd0730d5f615b767032932a47953c5e3b",
+      "bytes": 1988
+    },
+    "docs/plugin-example/resources/views/report.blade.php": {
+      "sha256": "47c4d5da955b7c10ff346603946b6bd8a6ee8571507dcd793dca24b09fcd84f4",
+      "bytes": 214
+    },
+    "plugins/README.md": {
+      "sha256": "5a8967a5b74b2652bfc1b77f29a17374924e2a78600380c685b6a32ef8d423fc",
+      "bytes": 344
+    },
+    "public/.htaccess": {
+      "sha256": "1e6559e4d2dbfb38456950625ef5e3608718cf3658c0002df1ffc43306f2c9ef",
+      "bytes": 469
+    },
+    "public/assets/app.css": {
+      "sha256": "0f88d34d311b585a9315dbdeb187c69e79a3b01960633be28e7b019fef9a79e4",
+      "bytes": 48823
+    },
+    "public/assets/icon-192.png": {
+      "sha256": "d97a25067a9e3bfc60aeccbb22f91f5a28087e5c624109eb7fd727bfe52349ae",
+      "bytes": 2637
+    },
+    "public/assets/icon-512.png": {
+      "sha256": "ba4e9562185ed5139f99246b3008f71caf48747098589a48c7f1682b6fefbfef",
+      "bytes": 7507
+    },
+    "public/index.php": {
+      "sha256": "1ff762628a85c98a33a7656a28bfaa7292580d44b75a6afbc057e3d20a2534d0",
+      "bytes": 399
+    },
+    "public/manifest.webmanifest": {
+      "sha256": "68530fc37169c348961bead4a0cf0ed78835c091b3058af0d16d98e3879e32c3",
+      "bytes": 542
+    },
+    "public/preflight.php": {
+      "sha256": "faa9cb3437a251569062946bbd7f80f30b53c673a46e7d23febc3eda73c3d62d",
+      "bytes": 1247
+    },
+    "public/sw.js": {
+      "sha256": "edcbdaadfe0801c01b129a848c84bc03c6afce14cb8a2d145a9438826ab5adb0",
+      "bytes": 1000
+    },
+    "resources/views/api-clients/index.blade.php": {
+      "sha256": "64a1b1157601d71e4b7142c17e018c5014c60e7954cc980f4b75ef2f4bdc3187",
+      "bytes": 2141
+    },
+    "resources/views/audit/index.blade.php": {
+      "sha256": "b5faa6b184bea7fa5e4b80ed78f15a1b6aafca2a180ce3170f5f4a114d2125cc",
+      "bytes": 685
+    },
+    "resources/views/auth/applicator-register.blade.php": {
+      "sha256": "e80b53c5dc7fe40ac9e5246c08a915e30421b94dc31f544d98fd03afb88f16d9",
+      "bytes": 8033
+    },
+    "resources/views/auth/applicator-verify.blade.php": {
+      "sha256": "5ed5119e1c893965bbeaf6f7ee6969f0ae233c5ca349f70ca62e75d807a26c52",
+      "bytes": 1195
+    },
+    "resources/views/auth/login.blade.php": {
+      "sha256": "b75395f58a2d53a406cc01f6aac3c498b819cf27da4633d2a46e3753fe1bba98",
+      "bytes": 2385
+    },
+    "resources/views/complaints/index.blade.php": {
+      "sha256": "3dd866ca4bfec35952639b2f53f55f3d6a8b503e58a8685b41571f8fc9ff25fb",
+      "bytes": 1398
+    },
+    "resources/views/components/icon.blade.php": {
+      "sha256": "31c545c7897d5a6fb54cc20f1ba5247bc30c18b4c00f7f7024bcdc70da647ad0",
+      "bytes": 3933
+    },
+    "resources/views/configuration/index.blade.php": {
+      "sha256": "43ba6fe759d889769260cbb237c7b900d7ab8cc14af9b036945df43627d689bb",
+      "bytes": 5061
+    },
+    "resources/views/dashboard/index.blade.php": {
+      "sha256": "039725c61a452b0885db331d4bb0242f161eb6803b4d8b717957ffc064bc60b0",
+      "bytes": 12589
+    },
+    "resources/views/evidence/index.blade.php": {
+      "sha256": "ad7c4337e9b0aefc130f1ac31631658944b0646569b7d004bc442d13548299d1",
+      "bytes": 1438
+    },
+    "resources/views/home.blade.php": {
+      "sha256": "54f8a41b6bec21a1930b15d6aec77a726aaafc7afce0fe415fa8e6f9f3751ece",
+      "bytes": 4964
+    },
+    "resources/views/install/index.blade.php": {
+      "sha256": "9a53405463f80e3824ad3ca186b77e790ba83d19fcb4c5a244c706ff5f88ef5b",
+      "bytes": 3987
+    },
+    "resources/views/kyc/index.blade.php": {
+      "sha256": "66d0d3c9c2837875ffcbf13f29d83e69e8c55186ec427eda4666011e224b0e4b",
+      "bytes": 1326
+    },
+    "resources/views/layouts/app.blade.php": {
+      "sha256": "4ea19a50df11e8ad1b8170cc6c5342b31fa7e03d2208a002c349de632d457408",
+      "bytes": 10888
+    },
+    "resources/views/masters/index.blade.php": {
+      "sha256": "564d55f0682f35b8944a9eeefd53e865617726135e1e5316b201f50acd8c8472",
+      "bytes": 10668
+    },
+    "resources/views/payments/index.blade.php": {
+      "sha256": "e496166cc1e3ffbb174f8f990f1e139a0b7c5d1a28a52052032bda336c1fd693",
+      "bytes": 3997
+    },
+    "resources/views/plugins/builder.blade.php": {
+      "sha256": "c43ea140a6d71742353aff736b9024de40e0845d1ed23782bb1d23f10bb3be75",
+      "bytes": 8178
+    },
+    "resources/views/plugins/index.blade.php": {
+      "sha256": "c25e4ee3ba7f312934679b1f5aca9676f4c731fe8698c8a1d2b7d14466e384b4",
+      "bytes": 2261
+    },
+    "resources/views/plugins/partials/form-fields.blade.php": {
+      "sha256": "775dc5bb88483a24b74f06773d3609c013b3154809967187a4f4740aedf6f2b8",
+      "bytes": 1793
+    },
+    "resources/views/plugins/partials/table-actions.blade.php": {
+      "sha256": "7aeb64a5c6df8a70fd9979edad4fb62901f5f2c0ba275dafc7f504db22536c9b",
+      "bytes": 450
+    },
+    "resources/views/plugins/partials/tabs.blade.php": {
+      "sha256": "d8a45673e05347c9bb6f58cd92b99e1aa0db5e2f5f31ad20af195131d9113589",
+      "bytes": 1012
+    },
+    "resources/views/plugins/settings.blade.php": {
+      "sha256": "ca7a18b8fd15015a7c4b1521b2e59c6e999026f56214797307cd47d471de572a",
+      "bytes": 2006
+    },
+    "resources/views/plugins/show.blade.php": {
+      "sha256": "a28f6ff6652641b9ecddff89262d9a254b4faf6738d114874bace3eff354d7da",
+      "bytes": 3857
+    },
+    "resources/views/profile/edit.blade.php": {
+      "sha256": "a7d04c3d297078e2c7d4f951158a5f2fb2fc84cf1aeddc5926290ef0951dd1db",
+      "bytes": 5503
+    },
+    "resources/views/settings/index.blade.php": {
+      "sha256": "957393857f79d9d26376c49f63eee53eb10e90a66c7432bdb9ff05d674a87069",
+      "bytes": 10128
+    },
+    "resources/views/tickets/index.blade.php": {
+      "sha256": "95eee4c08ff65af2523a55ff8a749cfe778ce76d6a73b03b96f316e6160cdfa7",
+      "bytes": 2280
+    },
+    "resources/views/tickets/show.blade.php": {
+      "sha256": "74fb1a2f7ea8b74ab3c22237527b6de8731a88db1b2c7096b020f6872ef48ce3",
+      "bytes": 3800
+    },
+    "resources/views/tracking/show.blade.php": {
+      "sha256": "abfe641a0807b71d88e313e1e87c1ef43ec5a296ebf28555c62d822b44aa9194",
+      "bytes": 3344
+    },
+    "resources/views/users/edit.blade.php": {
+      "sha256": "4e1a83a7fdbd387827a4a4614ecb91c1b327d5ff8023846fa56526701d022a9c",
+      "bytes": 5907
+    },
+    "resources/views/users/index.blade.php": {
+      "sha256": "2da158faadb7d20f41dc0b8c56517cc5f7979ccb48ce3e1171156096a9dd4cf7",
+      "bytes": 7251
+    },
+    "resources/views/work-orders/create.blade.php": {
+      "sha256": "84920446f951b77de3fef38e8a42d57c99920e5f111eda46d48e44d76e4e24cd",
+      "bytes": 2264
+    },
+    "resources/views/work-orders/index.blade.php": {
+      "sha256": "4e844e226d62234a05f2c7475089f134b7b708f1f7a1b68502cfcf79f16315f8",
+      "bytes": 2431
+    },
+    "resources/views/work-orders/show.blade.php": {
+      "sha256": "cb02ebb2c6995ff011988acd2902860ee992dd9655bf378915346456ef502a93",
+      "bytes": 24345
+    },
+    "routes/api.php": {
+      "sha256": "8df5b591a6b9a0c6e09cf12448d3d4fa202a315475a0834a78bb300d5f3ff7fb",
+      "bytes": 869
+    },
+    "routes/console.php": {
+      "sha256": "5cae0f4b6c6edc116e0feae3e119a69431c262cfcc9741cb616d3a82fe2a46fe",
+      "bytes": 1222
+    },
+    "routes/web.php": {
+      "sha256": "6ae9db36317dfdb581a0e262490e50e77ab8bf230aa548523261d7ccd58d334c",
+      "bytes": 16547
+    },
+    "scripts/cpanel_prepare.sh": {
+      "sha256": "68ce4da36a299c710905d6a11c3437d7f5712cceff5ccc33b49297c67bc27ca9",
+      "bytes": 669
+    },
+    "scripts/post_install_optimize.sh": {
+      "sha256": "bac3fd72b596109bd973d3df649fd95d376599b45c1ffbb5a1a0040832dd2333",
+      "bytes": 192
+    },
+    "storage/app/public/.gitignore": {
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d",
+      "bytes": 14
+    },
+    "storage/logs/.gitignore": {
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d",
+      "bytes": 14
+    }
+  }
+}
